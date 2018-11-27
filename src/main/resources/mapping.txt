@@ -1,0 +1,16 @@
+{
+    "mappings" : {
+      "file" : {
+        "properties" : {
+          "content" : {
+            "type" : "text",
+            "analyzer" : "ik_max_word"
+          },
+          "name" : {
+            "type" : "text",
+            "analyzer" : "ik_max_word"
+          }
+        }
+      }
+    }
+}
