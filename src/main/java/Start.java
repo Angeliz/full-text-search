@@ -17,7 +17,7 @@ public class Start {
             String file = folder.get(i).toString();
             String currentFilePath = rootPath+"/"+file;
             String currentFileContent = DealFile.readFile2String(currentFilePath);
-            fileType obj = new fileType(file,currentFileContent);
+            FileType obj = new FileType(file,currentFileContent);
             EsUtil.insertData(client, "experimentdataset", "file", obj, i+"");
         }
     }

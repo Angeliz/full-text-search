@@ -1,10 +1,10 @@
-public class fileType {
-    private String name;  // 流动资产合计
-    private String content;  // 非流动资产合计
+public class FileType {
+    private String name;
+    private String content;
 
-    public fileType() { }
+    public FileType() { }
 
-    public fileType(String name, String content) {
+    public FileType(String name, String content) {
         this.name = name;
         this.content = content;
     }
